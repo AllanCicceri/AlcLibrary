@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>vogelib</id>
+    <version>1.0.0</version>
+    <authors>allan</authors>
+    <owners>allan</owners>
+    <description>Pacote criado para disponibilizar funcionalidades comumente usadas
+	em projetos .net de pequeno porte principalmente Framework4.7 desktop.
+    </description>
+  </metadata>
+  <files>
+    <file src="bin/Release/*.dll" target="lib/" />
+  </files>
+</package>
