@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using VogelLibrary;
+using AlcLib;
 
 namespace TestForm
 {
@@ -14,8 +14,8 @@ namespace TestForm
         private void Form1_Load(object sender, EventArgs e)
         {
             //TODOS FUNCIONARAM
-            Database db = new Database();
-            var list = db.Find("pessoas", "nome,email", "[cgc]='' AND email<>''");
+            //Database db = new Database();
+            //var list = db.Find("pessoas", "nome,email", "[cgc]='' AND email<>''");
 
             //db.Update("pessoas", "[codigo do local]=1", "[codigo da pessoa]=1");
             //list = db.Find("pessoas", "nome,email,[codigo do local]", "[codigo da pessoa]=1");

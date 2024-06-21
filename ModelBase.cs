@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace VogelLibrary
+namespace AlcLibrary
 {
     public class ModelBase<T> where T : ModelBase<T>, new()
     {

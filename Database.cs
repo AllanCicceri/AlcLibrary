@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Text.Json;
 
 
-namespace VogelLibrary
+namespace AlcLibrary
 {
     /// <summary>
     /// Classe com funções para Insert, Update e Select de uma tabela específica no banco.

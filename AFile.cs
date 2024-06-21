@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace VogelLibrary
+namespace AlcLibrary
 {
     public class AFile
     {

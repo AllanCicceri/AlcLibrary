@@ -1,9 +1,7 @@
-﻿using System;
-using System.Configuration;
-using System.IO;
+﻿using System.Configuration;
 using System.Xml.Linq;
 
-namespace VogelLibrary
+namespace AlcLibrary
 {
     public class Config
     {
