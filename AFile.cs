@@ -17,13 +17,13 @@ namespace AlcLibrary
 
         private void MakeFile()
         {
-            if (!File.Exists(_path)) 
+            if (!File.Exists(_path))
             {
-                using(StreamWriter sw = File.CreateText(_path))
+                using (StreamWriter sw = File.CreateText(_path))
                 {
                 }
             }
-              
+
         }
 
         public void WriteFile(string text)
@@ -36,7 +36,7 @@ namespace AlcLibrary
             }
 
         }
-        public string ReadFile() 
+        public string ReadFile()
         {
             if (File.Exists(_path))
             {

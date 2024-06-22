@@ -16,7 +16,7 @@ namespace AlcLibrary
         /// <summary>
         /// Construtor.
         /// </summary>
-        public Database() 
+        public Database()
         {
             _connectionString = Config.GetConnectionString();
         }
@@ -52,7 +52,7 @@ namespace AlcLibrary
                     for (int i = 0; i < rdr.FieldCount; i++)
                     {
                         obj[rdr.GetName(i)] = rdr.GetValue(i);
-                    }                   
+                    }
                     list.Add(obj);
                 }
 

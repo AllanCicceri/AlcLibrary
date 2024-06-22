@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>vogelib</id>
+    <id>alclib</id>
     <version>1.0.0</version>
     <authors>allan</authors>
     <owners>allan</owners>
